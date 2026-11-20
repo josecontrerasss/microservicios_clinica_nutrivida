@@ -23,7 +23,7 @@ public class DataInitializer implements CommandLineRunner {
             s1.setTitulo("Nutrición Deportiva");
             s1.setPrecio(25000);
             s1.setDescripcion("Plan alimenticio enfocado en el rendimiento físico y recuperación.");
-            s1.setImagen("/Imagenes/Servicios/deportiva.jpg");
+            s1.setImagen("/Imagenes/Servicios/deporte.jpg");
 
             Servicio s2 = new Servicio();
             s2.setTitulo("Control de Peso");
