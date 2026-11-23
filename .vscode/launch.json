@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NovedadesApplication",
+            "request": "launch",
+            "mainClass": "cl.nutrivida.novedades.NovedadesApplication",
+            "projectName": "novedades"
+        },
+        {
+            "type": "java",
             "name": "ReservasApplication",
             "request": "launch",
             "mainClass": "cl.nutrivida.reservas.ReservasApplication",
