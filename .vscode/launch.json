@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ReservasApplication",
+            "request": "launch",
+            "mainClass": "cl.nutrivida.reservas.ReservasApplication",
+            "projectName": "reservas"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthApplication<auth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.auth.AuthApplication",
+            "projectName": "auth",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CatalogoApplication<catalogo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.catalogo.CatalogoApplication",
+            "projectName": "catalogo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ContactoApplication<contacto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.contacto.ContactoApplication",
+            "projectName": "contacto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MedicosApplication<medicos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.medicos.MedicosApplication",
+            "projectName": "medicos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
